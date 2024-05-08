@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/draw"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ID"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp">
+    </TextView>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="60dp"
+        android:text="Title"
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp">
+    </TextView>
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Body"
+        android:textColor="@color/white"
+
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp">
+    </TextView>
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="done"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp">
+    </TextView>
+
+
+
+</LinearLayout>
